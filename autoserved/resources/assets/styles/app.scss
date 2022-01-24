@@ -1,0 +1,298 @@
+* {
+	box-sizing: border-box;
+}
+
+input[type='text'], input[type='email'], input[type='password'], textarea {
+	outline: none;
+}
+
+.btn-group a {
+	color: grey;
+	background: white;
+	border-radius: 0px;
+	border: 1px solid rgb(225, 229, 235);
+}
+.btn-group a:first-child {
+	border-radius: 4px 0px 0px 4px;
+}
+.btn-group a:last-child {
+	border-radius: 0px 4px 4px 0px;
+}
+.btn-group a:hover {
+	box-shadow: rgba(129, 142, 163, 0.2) 0px 2px 10px 0px, rgba(129, 142, 163, 0.3) 0px 1px 2px 0px
+}
+
+.btn-group a.active {
+	background: blue !important;
+	color: white !important;
+	border: 0px;
+}
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.bg-nav {
+    background-color: #ECF0F1;
+}
+
+#sidebar .active {
+	background-color: #edf2f7;
+    box-shadow: inset 0.1875rem 0 0 #007bff;
+}
+#sidebar .active.text-gray-800 {
+	color: #4299e1;
+	font-weight: 600;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.icon {
+	width: 28px;
+	height: 28px;
+	background-repeat: no-repeat;
+	margin-bottom: 5px;
+}
+.icon-header {
+	width: 43px;
+	height: 36px;
+	background-repeat: no-repeat;
+	margin-bottom: 5px;
+}
+.icon-56 {
+	width: 56px;
+	height: 56px;
+	background-repeat: no-repeat;
+	margin-bottom: 5px;	
+}
+.home-icon {
+	background-image: url('../img/Home-Icon.png');
+}
+.request-icon {
+	background-image: url('../img/Request-Icon.png');
+}
+.estimate-icon {
+	background-image: url('../img/Estimate-Icon.png');
+}
+.calendar-icon {
+	background-image: url('../img/Calendar-Icon.png');
+}
+.account-icon {
+	background-image: url('../img/Account-Icon.png');
+}
+
+.payable-icon {
+	background-image: url('../img/Payable-Icon.png');
+}
+.rewards-icon {
+	background-image: url('../img/Rewards-Icon.png');
+}
+.referral-icon {
+	background-image: url('../img/Referral-Icon.png');
+}
+.topup-icon {
+	background-image: url('../img/Topup-Icon.png');
+}
+
+.car-icon {
+	background-image: url('../img/Car-Icon.png');
+}
+.pms-icon {
+	background-image: url('../img/PMS-Icon.png');
+}
+.changeoil-icon {
+	background-image: url('../img/Changeoil-Icon.png');
+}
+.assist-icon {
+	background-image: url('../img/Towing-Icon.png');
+}
+
+.active .home-icon, .home-icon:hover {
+	background-image: url('../img/Home-Active.png');
+}
+.active .request-icon, .request-icon:hover {
+	background-image: url('../img/Request-Active.png');
+}
+.active .estimate-icon, .estimate-icon:hover {
+	background-image: url('../img/Estimate-Active.png');
+}
+.active .calendar-icon, .calendar-icon:hover {
+	background-image: url('../img/Calendar-Active.png');
+}
+.active .account-icon, .account-icon:hover {
+	background-image: url('../img/Account-Active.png');
+}
+.mobile-footer .active, .mobile-footer a:hover {
+	color:#2276B7;
+}
+
+/* inspired by: https://css-tricks.com/responsive-data-tables/ */
+.responsiveTable {
+	width: 100%;
+}
+  
+.responsiveTable td .tdBefore {
+	display: none;
+}
+
+.css-yk16xz-control {
+	border-color: #e2e8f0 !important;
+	padding: 2px;
+}
+
+.input-range__slider {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: #3f51b5;
+    border: 1px solid #3f51b5;
+    border-radius: 100%;
+    cursor: pointer;
+    display: block;
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-left: -0.5rem;
+    margin-top: -0.65rem;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: box-shadow 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    transition: box-shadow 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  }
+    .input-range__slider:active {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+      animation: shadow-pulse 0.5s ease-in-out;
+    }
+  
+    .input-range__slider:focus {
+      box-shadow: 0 0 0 5px rgba(63, 81, 181, 0.2); }
+      .input-range--disabled .input-range__slider {
+      background: #cccccc;
+      border: 1px solid #cccccc;
+      box-shadow: none;
+      -webkit-transform: none;
+              transform: none; }
+  
+  .input-range__slider-container {
+    -webkit-transition: left 0.3s ease-out;
+    transition: left 0.3s ease-out; }
+  
+  .input-range__label {
+    color: #aaaaaa;
+    font-family: "Helvetica Neue", san-serif;
+    font-size: 0.8rem;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    white-space: nowrap; }
+  
+    .input-range__label--min,
+    .input-range__label--max {
+    bottom: -1.4rem;
+    position: absolute;
+    display: none;}
+  
+  .input-range__label--min {
+    left: 0; }
+  
+  .input-range__label--max {
+    right: 0; }
+  
+  .input-range__label--value {
+    position: absolute;
+    top: -2.4rem; }
+  
+  .input-range__label-container {
+    left: -50%;
+    position: relative;
+	
+
+}
+    .input-range__label--max .input-range__label-container {
+      left: 50%; }
+  
+  .input-range__track {
+    top: -0.6px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(179, 179, 179), rgb(255, 255, 255));
+    border-radius: 0.3rem;
+    border: 0.5px solid rgb(197, 197, 197);
+    cursor: pointer;
+    display: block;
+    height: 0.4rem;
+    position: relative;
+    -webkit-transition: left 0.3s ease-out, width 0.3s ease-out;
+    transition: left 0.3s ease-out, width 0.3s ease-out; }
+    .input-range--disabled .input-range__track {
+      background: #ccc; }
+  
+  .input-range__track--background {
+    left: 0;
+    margin-top: -0.15rem;
+    position: absolute;
+    right: 0;
+    top: 50%; }
+  
+  .input-range__track--active {
+    background: #5066e0; }
+  
+  .input-range {
+    height: 1rem;
+    position: relative;
+    width: 100%; }
+  
+  
+  @keyframes shadow-pulse
+  {
+       0% {
+            box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.3);
+          }
+       100% {
+            box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
+       }
+  }
+  
+.input-range__slider, .input-range--disabled .input-range__slider {
+	width: 1.5rem !important;
+	height: 1.5rem !important;
+	margin-top: -.95rem !important;
+	border: 1px solid #e7e9ea !important;
+	background: rgb(255, 255, 255);
+}
+
+.input-range__track, .input-range--disabled .input-range__track {
+	background: #eceeef;
+	border: none !important;
+	border-radius: inherit;
+}
+.input-range__track--active {
+	background: #007bff;
+}
+.input-range--disabled .input-range__track--active {
+    background: #B8B8B8;
+}
+.react-date-picker__wrapper{
+  color:gray !important;
+  border: none !important;
+}
+.react-calendar {
+  border: inherit !important;
+}
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import 'utilities/animations';
+/* Material Icons */
+@import '@material/react-material-icon/index.scss';

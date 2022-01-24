@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Premiere Lab</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Arial', sans-serif;
+			font-size: 15px;
+			line-height: 1.5;
+		}
+
+		.page-center {
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		.bold {
+			/* Make text bold */
+			font-weight: bold;
+		}
+
+		.up-Bold { 
+			/* Make text uppercase and bold */
+			text-transform: uppercase;
+			font-weight: bold; 
+		}
+
+		.up-Text { 
+			/* Make text uppercase */
+			text-transform: uppercase;
+		}
+
+		.center-Up-Bold {
+			/* Make text centered, uppercase and bold */
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.text-Up-Center {
+			/* Make text uppercase and centered */
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		.fontS18 {
+		    font-size: 18px;
+		}
+
+		.fontS20 {
+		    font-size: 20px;
+		}
+
+		.fontS22 {
+		    font-size: 22px;
+		}
+
+		.fontS25 {
+		    font-size: 25px;
+		}
+
+		.padTop5 {
+			padding-top: 5px;
+		}
+
+		.padTop10 {
+			padding-top: 10px;
+		}
+
+		.padTop15 {
+			padding-top: 15px;
+		}
+
+		.padTop20 {
+			padding-top: 20px;
+		}
+
+		/* ====== Only put custom styling below this line ====== */
+		.my-border {
+			border-width:2px !important;
+			border-color: black !important;
+		}
+
+		.u-pl-80 {
+			padding-left: 80px !important;
+		}
+
+		.u-mt-400 {
+			margin-top: 400px;
+		}
+
+		.u-b-b-color {
+			border-bottom-color: #ffffff !important;
+		}
+
+		. {
+			position: relative;
+		}
+
+		.custom-border {
+			position: absolute;
+			top: -4px;
+			right: 0;
+			height: 26px;
+			width: 2px;
+			background-color: #000000;
+			display: inline-block;
+		}
+
+		@media only screen and (max-width: 767px ) {
+
+			.page-center { padding: 5px; }
+
+			.u-d-none { display: none !important; }
+
+			.u-mb-8 {
+				margin-bottom: 8px !important;
+			}
+
+			.u-left-parent > div > div {
+				text-align: left !important;
+			}
+
+			.u-mb-parent > div:nth-child(even) {
+				margin-bottom: 8px;
+			}
+
+			.u-mb-parent-odd > div:nth-child(odd) {
+				margin-bottom: 8px;
+			}
+
+			.u-center {
+				text-align: center !important;
+			}
+
+			.u-left {
+				text-align: left !important;
+			}
+
+			.u-mt-15 {
+				margin-top: 15px !important;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="page-center">
+		<header>
+			<!-- Insert header content below this line -->
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Name:
+				</div>
+				<div class="col-md-6">
+					SANTOS, VICTORIA B.
+				</div>
+				<div class="col-md-2">
+					Test Requested:
+				</div>
+				<div class="col-md-2">
+					03/07/2019 06:34 AM
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					Age:
+				</div>
+				<div class="col-md-6">
+					<div class="row u-mb-parent-odd">
+						<div class="col-md-3">
+							68
+						</div>
+						<div class="col-md-2">
+							DOB.:
+						</div>
+						<div class="col-md-3">
+							07/25/1950
+						</div>
+						<div class="col-md">
+							Ht(cm): 154.94
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					Sample Submitted:
+				</div>
+				<div class="col-md-2 u-mb-8">
+					03/07/2019 06:35 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Gender:
+				</div>
+				<div class="col-md-6">
+					<div class="row row u-mb-parent-odd">
+						<div class="col-md-3">
+							FEMALE
+						</div>
+						<div class="col-md-2">
+							J.O. No.:
+						</div>
+						<div class="col-md-3">
+							20190307-001
+						</div>
+						<div class="col-md">
+							Wt(kg): 65.60
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					Sample Processed:
+				</div>
+				<div class="col-md-2">
+					03/07/2019 07:05 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Hospital:
+				</div>
+				<div class="col-md-6">
+					WORLD CITI MEDICAL CENTER (WCMC)
+				</div>
+				<div class="col-md-2">
+					Result Validated:
+				</div>
+				<div class="col-md-2">
+					03/07/2019 08:33 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Referring MD:
+				</div>
+				<div class="col-md-6">
+					DR. REY ANUNCIACION
+				</div>
+				<div class="col-md-2">
+					Specimen No.:
+				</div>
+				<div class="col-md-2">
+					1
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<!-- Insert main content below this line -->
+			<div class="row">
+				<div class="col-md-12 center-Up-Bold u-left mt-3 u-mt-15">
+					CLINICAL CHEMISTRY
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12 border border-right-0 text-center font-weight-bold my-border pt-1 u-left u-b-b-color">
+							Test Name
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 border my-border border-top-0 border-right-0 pt-1 u-left">
+							&nbsp;
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							FBS (Glucose-Fasting Blood Sugar) 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							HBA1c (Hemoglobin A1c) 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							Creatinine
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							Crea Clearance
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							Uric Acid
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							SGPT/ALT
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12 border text-center font-weight-bold my-border border-right-0 pt-1 u-left">
+							SI Unit
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3 u-left">
+							<div class="row">
+								<div class="col font-weight-bold border my-border border-top-0 pt-1">
+									Result
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									7.41
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									6.7 
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									81.3
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									60.6
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									339.9
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									15.2
+								</div>
+							</div>
+						</div>
+						<div class="col u-left">
+							<div class="row">
+								<div class="col font-weight-bold border my-border border-left-0 border-right-0 border-top-0 pt-1">
+									Reference Range
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									3.9 - 5.9 mmol/L
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									4.2 - 6.0 %
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									Female: 53.0 - 97.2 umol/l 
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									100 ml/min/1.73 m2
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									154.7 - 428.4 umol/L
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									0 - 42 U/L
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12 border text-center font-weight-bold my-border pt-1 u-left">
+							Conventional Unit
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3 u-left">
+							<div class="row">
+								<div class="col font-weight-bold border my-border border-top-0 pt-1">
+									Result
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									133.5
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&nbsp;
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									0.92
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&nbsp;
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									5.8
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&nbsp;
+								</div>
+							</div>
+						</div>
+						<div class="col u-left">
+							<div class="row">
+								<div class="col font-weight-bold border my-border border-left-0 border-top-0 pt-1">
+									Reference Range
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									70 - 106 mg/dl
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&nbsp;
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									Female: 0.6 - 1.1 mg/dl
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&nbsp;
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									2.6 - 7.2 mg/dl
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<footer>
+			<!-- Insert footer content below this line -->
+			<div class="row mt-2">
+				<div class="col-md-12 border border-left-0 border-right-0 my-border text-left pt-1 pb-5">
+					RUN WITH CONTROL
+				</div>
+			</div>
+			<div class="row mt-3">
+				<div class="col-md-12 text-center f-s-14">
+					*** Nothing follows ***
+				</div>
+			</div>
+			<div class="row u-mt-400">
+				<div class="col-md-6 text-left">
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							GERLY T. PAGAYANAN, RMT
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							Medical Technologist
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							License #: 078568
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 text-right d-flex justify-content-center">
+					<img src="Images/signature.png" alt="">
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,437 @@
+id, type, name, details, created_at, updated_at
+1,General Services,AC Air Filter Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+2,General Services,AC Belt Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+3,General Services,AC Low Pressure Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+4,General Services,AC Recharge, 2019-07-15 15:01:16,2019-07-15 15:01:16
+5,General Services,AC Refrigerant Discharge Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+6,General Services,AC Refrigerant Liquid Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+7,General Services,AC Refrigerant Suction Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+8,General Services,AC Suction Line Hose Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+9,General Services,Adjust Clutch, 2019-07-15 15:01:16,2019-07-15 15:01:16
+10,General Services,Adjust Drive Belts, 2019-07-15 15:01:16,2019-07-15 15:01:16
+11,General Services,Adjust Drum Brakes, 2019-07-15 15:01:16,2019-07-15 15:01:16
+12,General Services,Adjust Ignition Timing, 2019-07-15 15:01:16,2019-07-15 15:01:16
+13,General Services,Adjust Parking Brake Cable, 2019-07-15 15:01:16,2019-07-15 15:01:16
+14,General Services,Adjust Throttle Valve Cable, 2019-07-15 15:01:16,2019-07-15 15:01:16
+15,General Services,Air Filter Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+16,General Services,Air Injection Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+17,General Services,Air Intake Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+18,General Services,Alternator Belt Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+19,General Services,Amazon Local Brake Pads Package, 2019-07-15 15:01:16,2019-07-15 15:01:16
+20,General Services,Bleed Brakes, 2019-07-15 15:01:16,2019-07-15 15:01:16
+21,General Services,Brake and Inspection Special, 2019-07-15 15:01:16,2019-07-15 15:01:16
+22,General Services,Brake Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+23,General Services,Brake System Flush, 2019-07-15 15:01:16,2019-07-15 15:01:16
+24,General Services,Brake System Flush, 2019-07-15 15:01:16,2019-07-15 15:01:16
+25,General Services,Breather Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+26,General Services,Bypass Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+27,General Services,Cabin Air Filter Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+28,General Services,Change Oil and Filter, 2019-07-15 15:01:16,2019-07-15 15:01:16
+29,General Services,Change Oil and Filter, 2019-07-15 15:01:16,2019-07-15 15:01:16
+30,General Services,Clean and Repack Wheel Bearing, 2019-07-15 15:01:16,2019-07-15 15:01:16
+31,General Services,Clean Evaporator Drain Tube, 2019-07-15 15:01:16,2019-07-15 15:01:16
+32,General Services,Clean Throttle Body, 2019-07-15 15:01:16,2019-07-15 15:01:16
+33,General Services,Clutch Fluid Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+34,General Services,Cooling System Flush, 2019-07-15 15:01:16,2019-07-15 15:01:16
+35,General Services,Cooling System Flush, 2019-07-15 15:01:16,2019-07-15 15:01:16
+36,General Services,Drive Belt Tensioner Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+37,General Services,Exhaust Gas Recirculation (EGR) Tube Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+38,General Services,Fuel Filter Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+39,General Services,Heater Bypass Tube Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+40,General Services,Lubricate Ball Joints, 2019-07-15 15:01:16,2019-07-15 15:01:16
+41,General Services,Lubricate Doors, 2019-07-15 15:01:16,2019-07-15 15:01:16
+42,General Services,Lubricate Driveshaft, 2019-07-15 15:01:16,2019-07-15 15:01:16
+43,General Services,Lubricate Hood Hinge, 2019-07-15 15:01:16,2019-07-15 15:01:16
+44,General Services,Lubricate Steering and Suspension, 2019-07-15 15:01:16,2019-07-15 15:01:16
+45,General Services,Lubricate Suspension, 2019-07-15 15:01:16,2019-07-15 15:01:16
+46,General Services,Lubricate Trunk, 2019-07-15 15:01:16,2019-07-15 15:01:16
+47,General Services,Lubricate U-Joints, 2019-07-15 15:01:16,2019-07-15 15:01:16
+48,General Services,Power Steering Belt Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+49,General Services,Power Steering Fluid Service, 2019-07-15 15:01:16,2019-07-15 15:01:16
+50,General Services,Power Steering Fluid Service, 2019-07-15 15:01:16,2019-07-15 15:01:16
+51,General Services,Power Steering Pressure Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+52,General Services,Power Steering Return Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+53,General Services,Pressure Test Radiator Cap, 2019-07-15 15:01:16,2019-07-15 15:01:16
+54,General Services,Radiator Flush, 2019-07-15 15:01:16,2019-07-15 15:01:16
+55,General Services,Radiator Flush, 2019-07-15 15:01:16,2019-07-15 15:01:16
+56,General Services,Radiator Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+57,General Services,Recharge Diesel Emissions Fluid, 2019-07-15 15:01:16,2019-07-15 15:01:16
+58,General Services,Recharge Diesel Emissions Fluid, 2019-07-15 15:01:16,2019-07-15 15:01:16
+59,General Services,Reset Indicator Lights, 2019-07-15 15:01:16,2019-07-15 15:01:16
+60,General Services,Rotate Tires, 2019-07-15 15:01:16,2019-07-15 15:01:16
+61,General Services,Rotate Tires, 2019-07-15 15:01:16,2019-07-15 15:01:16
+62,General Services,Serpentine/Drive Belt Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+63,General Services,Service Battery/cables, 2019-07-15 15:01:16,2019-07-15 15:01:16
+64,General Services,Spare Tire Installation, 2019-07-15 15:01:16,2019-07-15 15:01:16
+65,General Services,Spare Tire Installation, 2019-07-15 15:01:16,2019-07-15 15:01:16
+66,General Services,Supercharger Belt Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+67,General Services,Tighten Wheel Lug Nuts, 2019-07-15 15:01:16,2019-07-15 15:01:16
+68,General Services,Timing Belt Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+69,General Services,Timing Cover Gasket, 2019-07-15 15:01:16,2019-07-15 15:01:16
+70,General Services,Transfer Case Fluid Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+71,General Services,Transmission Fluid Service, 2019-07-15 15:01:16,2019-07-15 15:01:16
+72,General Services,Transmission Fluid Service, 2019-07-15 15:01:16,2019-07-15 15:01:16
+73,General Services,Trunk Latch Adjustment, 2019-07-15 15:01:16,2019-07-15 15:01:16
+74,General Services,Tune-up, 2019-07-15 15:01:16,2019-07-15 15:01:16
+75,General Services,Valve Clearance Adjustment, 2019-07-15 15:01:16,2019-07-15 15:01:16
+76,Brakes,ABS Speed Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+77,Brakes,Anti-Lock Control Relay Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+78,Brakes,Anti-Lock Fuses Or Relay Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+79,Brakes,Brake Caliper Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+80,Brakes,Brake Drum Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+81,Brakes,Brake Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+82,Brakes,Brake Master Cylinder Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+83,Brakes,Brake Pads Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+84,Brakes,Brake Rotor/Disc Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+85,Brakes,Brake Shoes (Rear) Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+86,Brakes,Brake System Flush, 2019-07-15 15:01:16,2019-07-15 15:01:16
+87,Brakes,Brake Vacuum Pump Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+88,Brakes,Brake Wheel Cylinder Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+89,Brakes,Emergency / Parking Brake Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+90,Brakes,Emergency / Parking Brake Shoe Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+91,Brakes,Emergency Brake Control Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+92,Brakes,Parking Brake Release Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+93,Brakes,Vacuum Brake Booster Check Valve Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+94,Brakes,Vacuum Pump Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+95,Brakes,Wheel Hub Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+96,Brakes,Wheel Speed Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+97,Engine,AC Belt Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+98,Engine,Accelerator Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+99,Engine,Air Bleed Housing Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+100,Engine,Air Pump Check Valve Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+101,Engine,Air Pump Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+102,Engine,Alternator Belt Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+103,Engine,Alternator Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+104,Engine,Automatic Shutdown Relay Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+105,Engine,Barometric Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+106,Engine,Battery Terminal Ends Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+107,Engine,Boost Pressure Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+108,Engine,Breather Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+109,Engine,Bypass Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+110,Engine,Camshaft Adjuster Magnet Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+111,Engine,Camshaft Seal Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+112,Engine,Carburetor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+113,Engine,Carburetor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+114,Engine,Coolant Recovery Reservoir Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+115,Engine,Coolant Reservoir Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+116,Engine,Coolant Temperature Switch (Sensor) Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+117,Engine,Cooling System Flush, 2019-07-15 15:01:16,2019-07-15 15:01:16
+118,Engine,Cooling/Radiator Fan Motor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+119,Engine,Crankshaft Harmonic Balancer Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+120,Engine,Cruise Control Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+121,Engine,Distributor O Ring Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+122,Engine,Distributor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+123,Engine,Distributor Rotor and Cap Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+124,Engine,Eccentric Shaft Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+125,Engine,EGR Pressure Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+126,Engine,EGR Vacuum Solenoid Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+127,Engine,Electronic Ignition Pickup Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+128,Engine,Electronic Spark Control Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+129,Engine,Engine Camshaft Synchronizer Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+130,Engine,Engine Intake Manifold Runner Control Lever Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+131,Engine,Engine Intake Manifold Runner Control Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+132,Engine,Engine Intake Manifold Runner Vacuum Actuator Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+133,Engine,Engine Intake Manifold Runner Vacuum Control Motor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+134,Engine,Engine Mount Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+135,Engine,Engine Oil Temperature Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+136,Engine,Engine Oil Temperature Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+137,Engine,Engine Variable Valve Timing (VVT) Adjuster Magnet Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+138,Engine,Engine Variable Valve Timing (VVT) Eccentric Shaft Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+139,Engine,Engine Variable Valve Timing (VVT) Oil Control Valve Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+140,Engine,Exhaust Gas Recirculation (EGR) Tube Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+141,Engine,Exhaust Gas Recirculation/EGR Valve Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+142,Engine,Exhaust Manifold Gasket Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+143,Engine,Exhaust Manifold Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+144,Engine,Fan Clutch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+145,Engine,Front Crankshaft Seal Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+146,Engine,Fuel Filler Cap Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+147,Engine,Fuel Filler Neck Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+148,Engine,Fuel Filter Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+149,Engine,Fuel Gauge Sender Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+150,Engine,Fuel Injector O Rings Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+151,Engine,Fuel Injector Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+152,Engine,Fuel Pressure Damper Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+153,Engine,Fuel Pressure Damper Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+154,Engine,Fuel Pressure Regulator Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+155,Engine,Fuel Pressure Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+156,Engine,Fuel Pump Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+157,Engine,Fuel Tank Pressure Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+158,Engine,Gas Cap Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+159,Engine,Heater Bypass Tube Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+160,Engine,Heater Hoses Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+161,Engine,Idle Control Valve Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+162,Engine,Idler Pulley Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+163,Engine,Injector Control Pressure Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+164,Engine,Intake Manifold Gaskets Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+165,Engine,Intake Manifold Runner Control Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+166,Engine,Leak Detection Pump Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+167,Engine,Manifold Absolute Pressure Sensor (MAP Sensor) Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+168,Engine,Oil Cooler Adapter Gasket Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+169,Engine,Oil Cooler Hose (Automatic Transmission) Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+170,Engine,Oil Cooler Lines Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+171,Engine,Oil Cooler Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+172,Engine,Oil Filter Housing Gasket Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+173,Engine,Oil Filter Housing Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+174,Engine,Oil Pan Gasket Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+175,Engine,Oil Pan Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+176,Engine,Oil Pressure Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+177,Engine,Oil Pump O Ring Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+178,Engine,Oil Separator Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+179,Engine,Oxygen Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+180,Engine,PCV Valve Grommet Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+181,Engine,PCV Valve Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+182,Engine,Points & Condenser Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+183,Engine,Positive Crankcase Ventilation (PCV) Valve Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+184,Engine,Power Steering Belt Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+185,Engine,Pressure Test Radiator Cap, 2019-07-15 15:01:16,2019-07-15 15:01:16
+186,Engine,Radiator Flush, 2019-07-15 15:01:16,2019-07-15 15:01:16
+187,Engine,Radiator Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+188,Engine,Serpentine/Drive Belt Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+189,Engine,Starter Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+190,Engine,Supercharger Belt Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+191,Engine,Thermostat Housing Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+192,Engine,Thermostat Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+193,Engine,Throttle Body Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+194,Engine,Throttle Control Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+195,Engine,Throttle Controller Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+196,Engine,Timing Cover Gasket, 2019-07-15 15:01:16,2019-07-15 15:01:16
+197,Engine,Timing Cover Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+198,Engine,Tune-up, 2019-07-15 15:01:16,2019-07-15 15:01:16
+199,Engine,Valve Cover Gasket Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+200,Engine,Valve Cover Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+201,Engine,Variable Valve Timing (VVT) Solenoid Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+202,Engine,Variable Valve Timing (VVT) Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+203,Engine,Vent Oil Separator Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+204,Engine,Water Pump (Auxiliary) Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+205,Engine,Water Pump Pulley Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+206,Engine,Water Pump Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+207,Engine,Windshield Washer Reservoir Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+208,Clutch and Transmission,Automatic Transmission Shift Lever Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+209,Clutch and Transmission,Axle / CV Shaft Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+210,Clutch and Transmission,Axle Shaft Seal Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+211,Clutch and Transmission,Center Support Bearing Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+212,Clutch and Transmission,Clutch Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+213,Clutch and Transmission,Clutch Fluid Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+214,Clutch and Transmission,Clutch Master Cylinder Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+215,Clutch and Transmission,Clutch Safety Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+216,Clutch and Transmission,Clutch Slave Cylinder Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+217,Clutch and Transmission,Clutch Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+218,Clutch and Transmission,Differential Gasket Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+219,Clutch and Transmission,Differential Output Seal Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+220,Clutch and Transmission,Flexible Clutch Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+221,Clutch and Transmission,Manual Transmission Shift Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+222,Clutch and Transmission,Manual Transmission Shift Lever Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+223,Clutch and Transmission,Shift Interlock Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+224,Clutch and Transmission,Shift Interlock Solenoid Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+225,Clutch and Transmission,Shift Selector Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+226,Clutch and Transmission,Shifter Interlock Solenoid Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+227,Clutch and Transmission,Speed Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+228,Clutch and Transmission,Speedometer Cable and Housing Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+229,Clutch and Transmission,Speedometer Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+230,Clutch and Transmission,Transfer Case Fluid Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+231,Clutch and Transmission,Transmission Fluid Service, 2019-07-15 15:01:16,2019-07-15 15:01:16
+232,Clutch and Transmission,Transmission Oil Pressure Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+233,Clutch and Transmission,Transmission Position Sensor (Switch) Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+234,Clutch and Transmission,Transmission Speed Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+235,Heating & AC,AC Accumulator Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+236,Heating & AC,AC Clutch Cycling Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+237,Heating & AC,AC Compressor Relay Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+238,Heating & AC,AC Compressor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+239,Heating & AC,AC Condenser Fan Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+240,Heating & AC,AC Condenser Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+241,Heating & AC,AC Control Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+242,Heating & AC,AC High Pressure Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+243,Heating & AC,AC High Pressure Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+244,Heating & AC,AC is not working (Inspection), 2019-07-15 15:01:16,2019-07-15 15:01:16
+245,Heating & AC,AC Low Pressure Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+246,Heating & AC,AC Low Pressure Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+247,Heating & AC,AC Pressure Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+248,Heating & AC,AC Receiver Dryer Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+249,Heating & AC,AC Recharge, 2019-07-15 15:01:16,2019-07-15 15:01:16
+250,Heating & AC,AC Refrigerant Discharge Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+251,Heating & AC,AC Refrigerant Liquid Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+252,Heating & AC,AC Refrigerant Suction Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+253,Heating & AC,AC Suction Line Hose Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+254,Heating & AC,Ambient Temperature Sensor (Switch) Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+255,Heating & AC,Auxiliary Fan Control Unit Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+256,Heating & AC,Blower Motor Relay Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+257,Heating & AC,Blower Motor Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+258,Heating & AC,Condenser Fan Relay Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+259,Heating & AC,Expansion Valve (Orifice Tube) Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+260,Heating & AC,Heater Blower Motor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+261,Heating & AC,Heater Blower Motor Resistor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+262,Heating & AC,Heater Control Valve Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+263,Heating & AC,Radiator Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+264,Suspension & Steering,Air Shocks Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+265,Suspension & Steering,Air Spring Bag Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+266,Suspension & Steering,Air Springs Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+267,Suspension & Steering,Air Suspension Air Compressor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+268,Suspension & Steering,Axle / CV Shaft Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+269,Suspension & Steering,Ball Joint Front Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+270,Suspension & Steering,Ball Joint Rear Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+271,Suspension & Steering,Center (Drag) Link Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+272,Suspension & Steering,Control Arm Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+273,Suspension & Steering,Differential / Gear Oil Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+274,Suspension & Steering,Differential Fluid Service Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+275,Suspension & Steering,Drag Link Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+276,Suspension & Steering,Idler Arm Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+277,Suspension & Steering,Lateral Link Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+278,Suspension & Steering,Lubricate Ball Joints, 2019-07-15 15:01:16,2019-07-15 15:01:16
+279,Suspension & Steering,Lubricate Driveshaft, 2019-07-15 15:01:16,2019-07-15 15:01:16
+280,Suspension & Steering,Lubricate Steering and Suspension, 2019-07-15 15:01:16,2019-07-15 15:01:16
+281,Suspension & Steering,Lubricate Suspension, 2019-07-15 15:01:16,2019-07-15 15:01:16
+282,Suspension & Steering,Lubricate U-Joints, 2019-07-15 15:01:16,2019-07-15 15:01:16
+283,Suspension & Steering,Pitman Arm Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+284,Suspension & Steering,Power Steering Fluid Reservoir Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+285,Suspension & Steering,Power Steering Fluid Service, 2019-07-15 15:01:16,2019-07-15 15:01:16
+286,Suspension & Steering,Power Steering Input Shaft Seal Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+287,Suspension & Steering,Power Steering Pressure Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+288,Suspension & Steering,Power Steering Pressure Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+289,Suspension & Steering,Power Steering Pump Pulley Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+290,Suspension & Steering,Power Steering Pump Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+291,Suspension & Steering,Power Steering Return Hose Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+292,Suspension & Steering,Shock Absorber Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+293,Suspension & Steering,Stabilizer Bar Bushings Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+294,Suspension & Steering,Stabilizer Bar Links Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+295,Suspension & Steering,Steering Damper Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+296,Suspension & Steering,Steering Rack/Gearbox Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+297,Suspension & Steering,Steering Stabilizer Stop Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+298,Suspension & Steering,Strut Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+299,Suspension & Steering,Suspension Air Bag Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+300,Suspension & Steering,Suspension Springs Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+301,Suspension & Steering,Suspension Strut Mount Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+302,Suspension & Steering,Sway Bar Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+303,Suspension & Steering,Thrust Arm Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+304,Suspension & Steering,Tie Rod End Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+305,Suspension & Steering,Tighten Wheel Lug Nuts, 2019-07-15 15:01:16,2019-07-15 15:01:16
+306,Suspension & Steering,Track Bar Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+307,Suspension & Steering,Universal Joint (U-joint) Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+308,Suspension & Steering,Wheel Bearings Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+309,Suspension & Steering,Wheel Stud Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+310,Exterior & Interior,Adjust Windshield Washer Jets, 2019-07-15 15:01:16,2019-07-15 15:01:16
+311,Exterior & Interior,Clean and Repack Wheel Bearing, 2019-07-15 15:01:16,2019-07-15 15:01:16
+312,Exterior & Interior,Clean Windshield Washer Tubes and Jets (Inspection), 2019-07-15 15:01:16,2019-07-15 15:01:16
+313,Exterior & Interior,Deck Lid Release Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+314,Exterior & Interior,Door Latch Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+315,Exterior & Interior,Door Latch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+316,Exterior & Interior,Door Lock Actuator Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+317,Exterior & Interior,Door Lock Relay Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+318,Exterior & Interior,Door Lock Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+319,Exterior & Interior,Door Mirror Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+320,Exterior & Interior,Exterior Door Handle Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+321,Exterior & Interior,Front Windshield Wiper Blade Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+322,Exterior & Interior,Headlight Lens Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+323,Exterior & Interior,Hood Latch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+324,Exterior & Interior,Hood Lift Support Shocks Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+325,Exterior & Interior,Hood Release Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+326,Exterior & Interior,Hood Release Handle Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+327,Exterior & Interior,Interior Door Handle Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+328,Exterior & Interior,Liftgate Latch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+329,Exterior & Interior,Liftgate Lock Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+330,Exterior & Interior,Lubricate Doors, 2019-07-15 15:01:16,2019-07-15 15:01:16
+331,Exterior & Interior,Lubricate Hood Hinge, 2019-07-15 15:01:16,2019-07-15 15:01:16
+332,Exterior & Interior,Lubricate Trunk, 2019-07-15 15:01:16,2019-07-15 15:01:16
+333,Exterior & Interior,Power Window Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+334,Exterior & Interior,Rear Window Wiper Blade Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+335,Exterior & Interior,Rear Windshield Wiper Blade Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+336,Exterior & Interior,Tailgate Handle Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+337,Exterior & Interior,Trunk Latch Adjustment, 2019-07-15 15:01:16,2019-07-15 15:01:16
+338,Exterior & Interior,Trunk Latch Release Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+339,Exterior & Interior,Trunk Latch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+340,Exterior & Interior,Trunk Lift Support Shocks Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+341,Exterior & Interior,Trunk Lock Actuator Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+342,Exterior & Interior,Washer fluid does not spray onto windshield (Inspection), 2019-07-15 15:01:16,2019-07-15 15:01:16
+343,Exterior & Interior,Window Motor / Regulator Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+344,Exterior & Interior,Window Motor / Regulator Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+345,Exterior & Interior,Windshield Washer Pump Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+346,Exterior & Interior,Windshield Wiper Arm Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+347,Exterior & Interior,Windshield Wiper Blade Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+348,Exterior & Interior,Windshield Wiper Linkage Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+349,Exterior & Interior,Windshield Wiper Motor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+350,Exterior & Interior,Windshield Wiper Refill Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+351,Exterior & Interior,Windshield Wiper Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+352,Exterior & Interior,Windshield Wiper/Washer System Inspection, 2019-07-15 15:01:16,2019-07-15 15:01:16
+353,Exterior & Interior,Wiper Gearbox Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+354,Electrical,ABS Speed Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+355,Electrical,AC Control Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+356,Electrical,Air Charge Temperature Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+357,Electrical,Air Cleaner Temperature Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+358,Electrical,Auxiliary Battery Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+359,Electrical,Backup Light Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+360,Electrical,Ballast Resistor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+361,Electrical,Battery Cable Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+362,Electrical,Battery Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+363,Electrical,Blower Motor Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+364,Electrical,Boost Pressure Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+365,Electrical,Brake Light Bulb Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+366,Electrical,Brake Light Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+367,Electrical,Brake Light Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+368,Electrical,Camshaft Position Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+369,Electrical,Center High Mount Stop Light Bulb Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+370,Electrical,Center High Mount Stop Light Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+371,Electrical,Clutch Safety Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+372,Electrical,Clutch Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+373,Electrical,Combination Switch Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+374,Electrical,Combination Switch Assembly Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+375,Electrical,Console Light Bulb Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+376,Electrical,Coolant Level Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+377,Electrical,Cornering Light Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+378,Electrical,Courtesy Light Bulb Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+379,Electrical,Crankshaft Position Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+380,Electrical,Daytime Running Lights Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+381,Electrical,Distributor Rotor and Cap Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+382,Electrical,Dome Light Bulb Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+383,Electrical,Door Lock Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+384,Electrical,Eccentric Shaft Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+385,Electrical,EGR Pressure Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+386,Electrical,Electronic Ignition Pickup Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+387,Electrical,Engine Intake Manifold Runner Control Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+388,Electrical,Engine Oil Temperature Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+389,Electrical,Engine Oil Temperature Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+390,Electrical,Engine Variable Valve Timing (VVT) Adjuster Magnet Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+391,Electrical,Engine Variable Valve Timing (VVT) Eccentric Shaft Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+392,Electrical,Fog Light Lens Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+393,Electrical,Fog Light Relay Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+394,Electrical,Fog/Driving Light Bulb Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+395,Electrical,Fuel Tank Pressure Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+396,Electrical,Hazard / Turn Signal Flasher Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+397,Electrical,Headlight Bulb Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+398,Electrical,Headlight Closure Relay Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+399,Electrical,Headlight Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+400,Electrical,Headlight Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+401,Electrical,Ignition Cable (Spark plug wires) Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+402,Electrical,Ignition Coil Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+403,Electrical,Ignition Ignitor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+404,Electrical,Ignition Relay Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+405,Electrical,Ignition Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+406,Electrical,Ignition Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+407,Electrical,Instrument Voltage Regulator Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+408,Electrical,Intermittent Wiper Relay Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+409,Electrical,License Plate Light Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+410,Electrical,Low Water Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+411,Electrical,Manifold Temperature Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+412,Electrical,Map Light Bulb Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+413,Electrical,Mass Airflow Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+414,Electrical,Neutral Safety Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+415,Electrical,Oil Temperature Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+416,Electrical,Oxygen Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+417,Electrical,Power Seat Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+418,Electrical,Power Window Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+419,Electrical,Reset Indicator Lights, 2019-07-15 15:01:16,2019-07-15 15:01:16
+420,Electrical,Reverse Light Bulb Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+421,Electrical,Service Battery/cables, 2019-07-15 15:01:16,2019-07-15 15:01:16
+422,Electrical,Spark Plugs Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+423,Electrical,Speedometer Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+424,Electrical,Tail Lamp Bulb Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+425,Electrical,Tail Light Lens Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+426,Electrical,Throttle Body Position Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+427,Electrical,Throttle Position Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+428,Electrical,Throttle/Accelerator Pedal Position Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+429,Electrical,Top Dead Center (TDC) Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+430,Electrical,Trunk Light Bulb Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+431,Electrical,Turn Signal Bulb Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+432,Electrical,Turn Signal Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+433,Electrical,Turn Signal Switch Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+434,Electrical,Wheel Speed Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+435,Electrical,Yaw Rate Sensor Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16
+436,Optional Services,Air Filter Replacement, 2019-07-15 15:01:16,2019-07-15 15:01:16

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Premiere Lab</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Arial', sans-serif;
+			font-size: 15px;
+			line-height: 1.5;
+		}
+
+		.page-center {
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		.bold {
+			/* Make text bold */
+			font-weight: bold;
+		}
+
+		.up-Bold { 
+			/* Make text uppercase and bold */
+			text-transform: uppercase;
+			font-weight: bold; 
+		}
+
+		.up-Text { 
+			/* Make text uppercase */
+			text-transform: uppercase;
+		}
+
+		.center-Up-Bold {
+			/* Make text centered, uppercase and bold */
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.text-Up-Center {
+			/* Make text uppercase and centered */
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		.fontS18 {
+		    font-size: 18px;
+		}
+
+		.fontS20 {
+		    font-size: 20px;
+		}
+
+		.fontS22 {
+		    font-size: 22px;
+		}
+
+		.fontS25 {
+		    font-size: 25px;
+		}
+
+		.padTop5 {
+			padding-top: 5px;
+		}
+
+		.padTop10 {
+			padding-top: 10px;
+		}
+
+		.padTop15 {
+			padding-top: 15px;
+		}
+
+		.padTop20 {
+			padding-top: 20px;
+		}
+
+		/* ====== Only put custom styling below this line ====== */
+		.my-border {
+			border-width:2px !important;
+			border-color: black !important;
+		}
+
+		.padLeft15 {
+			padding-left: 15px;
+		}
+
+		.marginTop150 {
+			margin-top: 100px;
+		}
+
+		@media only screen and (max-width: 767px ) {
+
+			.page-center { padding: 5px; }
+			
+			.u-d-none { display: none !important; }
+
+			.u-mb-8 {
+				margin-bottom: 8px !important;
+			}
+
+			.u-left-parent > div > div {
+				text-align: left !important;
+			}
+
+			.u-mb-parent > div:nth-child(even) {
+				margin-bottom: 8px;
+			}
+
+			.u-mb-parent-odd > div:nth-child(odd) {
+				margin-bottom: 8px;
+			}
+
+			.u-center {
+				text-align: center !important;
+			}
+
+			.u-left {
+				text-align: left !important;
+			}
+
+			.u-mt-15 {
+				margin-top: 15px !important;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div class="page-center">
+		<header>
+			<!-- Insert header content below this line -->
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Name:
+				</div>
+				<div class="col-md-6">
+					DEJA, FERDINAND C.
+				</div>
+				<div class="col-md-2">
+					Test Requested:
+				</div>
+				<div class="col-md-2">
+					03/07/2019 06:36 AM
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					Age:
+				</div>
+				<div class="col-md-6">
+					<div class="row u-mb-parent-odd">
+						<div class="col-md-3">
+							55
+						</div>
+						<div class="col-md-2">
+							DOB.:
+						</div>
+						<div class="col-md-5">
+							09/07/1963
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					Sample Submitted:
+				</div>
+				<div class="col-md-2 u-mb-8">
+					03/07/2019 07:30 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Gender:
+				</div>
+				<div class="col-md-6">
+					<div class="row row u-mb-parent-odd">
+						<div class="col-md-3">
+							MALE
+						</div>
+						<div class="col-md-2">
+							J.O. No.:
+						</div>
+						<div class="col-md-6">
+							20190307-002
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					Sample Processed:
+				</div>
+				<div class="col-md-2">
+					03/07/2019 07:39 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Hospital:
+				</div>
+				<div class="col-md-6">
+					FEU- MARIAN MEDICAL
+				</div>
+				<div class="col-md-2">
+					Result Validated:
+				</div>
+				<div class="col-md-2">
+					03/07/2019 11:33 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Referring MD:
+				</div>
+				<div class="col-md-6">
+					DR. ALEXANDER D. ANG
+				</div>
+				<div class="col-md-2">
+					Specimen No.:
+				</div>
+				<div class="col-md-2">
+					32
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<!-- Insert main content below this line -->
+			<div class="row">
+				<div class="col-md-12 border my-border center-Up-Bold u-left mt-3 u-mt-15">
+					HEMATOLOGY
+				</div>
+			</div>
+			<div class="row mt-1">
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12 border text-center font-weight-bold my-border pt-2 u-left">
+							Test Name
+						</div>
+					</div>
+					<div class="row u-d-none">
+						<div class="col-md-12 center-Up-Bold mt-1">
+							&nbsp;
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							Hemoglobin
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							Hematocrit
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							RBC count 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							MCV
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							MCH
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							MCHC
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							RDW
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							Wbc count 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							Platelet count
+						</div>
+					</div>
+					<div class="row mt-2">
+						<div class="col-md-12 text-left pt-2 pl-4 center-Up-Bold">
+							DIFFERENTIAL COUNT
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							Neutrophils
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							Lymphocytes
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							Monocytes
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							Eosinophils
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-4">
+							Basophils 
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 u-left-parent">
+					<div class="row">
+						<div class="col-md-12 border border-left-0 border-right-0 text-center font-weight-bold my-border pt-2 u-center u-mt-15">
+							Result
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 center-Up-Bold mt-1">
+							COMPLETE BLOOD COUNT
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							163
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							0.47
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							5.1
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							93.9
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							32.3
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							344
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							15.1 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							5.8
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							183
+						</div>
+					</div>
+					<div class="row u-d-none">
+						<div class="col-md-12 text-center my-border pt-2">
+							&nbsp;
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							0.62 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							0.34 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							0.04
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12 border text-center font-weight-bold my-border pt-2 u-left u-mt-15">
+							Reference Value
+						</div>
+					</div>
+					<div class="row u-d-none">
+						<div class="col-md-12 center-Up-Bold mt-1">
+							&nbsp;
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							Male: 135.0 - 180.0 g/L
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							Male: 0.4 - 0.54 %
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							4.0 - 6.2 x 10<sup>12</sup> /L
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							80 - 100 fl
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							26.0 - 34.0 pg
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							310.0 - 355.0 g/L
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							10 - 16 %
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							4.0 - 12.0 x 10<sup>9</sup> /L
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							150 - 450 x 10<sup>9</sup> /L
+						</div>
+					</div>
+					<div class="row u-d-none">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							&nbsp;
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							0.50 - 0.80
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							0.25 - 0.50
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							0.02 - 0.10
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							0.02 - 0.04
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							0.0 - 0.05
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<footer>
+			<!-- Insert footer content below this line -->
+			<div class="row mt-4">
+				<div class="col-md-12 border border-left-0 border-right-0 my-border text-left my-border">
+					Remarks:
+				</div>
+			</div>
+			<div class="row marginTop150">
+				<div class="col-md-6 text-left">
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							EMMYLOU B. TARNATE, RMT
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							Medical Technologist
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							License #: 074190
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 text-right d-flex justify-content-center">
+					<img src="Images/signature.png" alt="">
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

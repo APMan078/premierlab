@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Premiere Lab</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Arial', sans-serif;
+			font-size: 15px;
+			line-height: 1.5;
+		}
+
+		.page-center {
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		.bold {
+			/* Make text bold */
+			font-weight: bold;
+		}
+
+		.up-Bold { 
+			/* Make text uppercase and bold */
+			text-transform: uppercase;
+			font-weight: bold; 
+		}
+
+		.up-Text { 
+			/* Make text uppercase */
+			text-transform: uppercase;
+		}
+
+		.center-Up-Bold {
+			/* Make text centered, uppercase and bold */
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.text-Up-Center {
+			/* Make text uppercase and centered */
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		.fontS18 {
+		    font-size: 18px;
+		}
+
+		.fontS20 {
+		    font-size: 20px;
+		}
+
+		.fontS22 {
+		    font-size: 22px;
+		}
+
+		.fontS25 {
+		    font-size: 25px;
+		}
+
+		.padTop5 {
+			padding-top: 5px;
+		}
+
+		.padTop10 {
+			padding-top: 10px;
+		}
+
+		.padTop15 {
+			padding-top: 15px;
+		}
+
+		.padTop20 {
+			padding-top: 20px;
+		}
+
+		/* ====== Only put custom styling below this line ====== */
+		.my-border {
+			border-width:2px !important;
+			border-color: black !important;
+		}
+
+		.u-pl-80 {
+			padding-left: 80px !important;
+		}
+
+		.u-mt-400 {
+			margin-top: 400px;
+		}
+
+		@media only screen and (max-width: 767px ) {
+
+			.page-center { padding: 5px; }
+
+			.u-d-none { display: none !important; }
+
+			.u-mb-8 {
+				margin-bottom: 8px !important;
+			}
+
+			.u-left-parent > div > div {
+				text-align: left !important;
+			}
+
+			.u-mb-parent > div:nth-child(even) {
+				margin-bottom: 8px;
+			}
+
+			.u-mb-parent-odd > div:nth-child(odd) {
+				margin-bottom: 8px;
+			}
+
+			.u-center {
+				text-align: center !important;
+			}
+
+			.u-left {
+				text-align: left !important;
+			}
+
+			.u-mt-15 {
+				margin-top: 15px !important;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="page-center">
+		<header>
+			<!-- Insert header content below this line -->
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Name:
+				</div>
+				<div class="col-md-6">
+					GOINGCO, VENERANDA A.
+				</div>
+				<div class="col-md-2">
+					Test Requested:
+				</div>
+				<div class="col-md-2">
+					08/12/2019 06:11 AM
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					Age:
+				</div>
+				<div class="col-md-6">
+					<div class="row u-mb-parent-odd">
+						<div class="col-md-3">
+							66
+						</div>
+						<div class="col-md-2">
+							DOB.:
+						</div>
+						<div class="col-md-5">
+							11/14/1952
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					Sample Submitted:
+				</div>
+				<div class="col-md-2 u-mb-8">
+					08/12/2019 06:11 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Gender:
+				</div>
+				<div class="col-md-6">
+					<div class="row row u-mb-parent-odd">
+						<div class="col-md-3">
+							FEMALE
+						</div>
+						<div class="col-md-2">
+							J.O. No.:
+						</div>
+						<div class="col-md-6">
+							20190812-002
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					Sample Processed:
+				</div>
+				<div class="col-md-2">
+					08/12/2019 07:06 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Hospital:
+				</div>
+				<div class="col-md-6">
+					NATIONAL KIDNEY AND TRANSPLANT INSTITUTE (NKTI)
+				</div>
+				<div class="col-md-2">
+					Result Validated:
+				</div>
+				<div class="col-md-2">
+					08/12/2019 04:03 PM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Referring MD:
+				</div>
+				<div class="col-md-6">
+					DR. IRA YU
+				</div>
+				<div class="col-md-2">
+					Specimen No.:
+				</div>
+				<div class="col-md-2">
+					2
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<!-- Insert main content below this line -->
+			<div class="row">
+				<div class="col-md-12 border my-border border-bottom-0 center-Up-Bold u-left mt-3 u-mt-15">
+					HEPATITIS MARKERS
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md">
+					<div class="row">
+						<div class="col-md-12 border text-center font-weight-bold my-border pt-1 u-left">
+							Test Name
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							HBsAg Titer
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							Anti-HBs
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							Anti-Hbc IgG(Reverse)
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							Anti-HCV
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="row">
+						<div class="col-md-12 border text-center font-weight-bold my-border pt-1 u-left">
+							Patient Count
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center pt-2 pl-4 u-left">
+							0.495
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center pt-2 pl-4 u-left">
+							2.55
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center pt-2 pl-4 u-left">
+							3.620
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center pt-2 pl-4 u-left">
+							0.185
+						</div>
+					</div>
+				</div>
+				<div class="col-md u-left-parent">
+					<div class="row">
+						<div class="col-md-12 border border-left-0 border-right-0 text-center font-weight-bold my-border pt-1 u-center u-mt-15">
+							Cut-Off
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							1.0
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							10.0
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							0.739
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							1.0
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12 border text-center font-weight-bold my-border pt-1 u-left u-mt-15">
+							Interpretation
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							NONREACTIVE
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							NONREACTIVE
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							NONREACTIVE
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left my-border pt-2 pl-4">
+							NONREACTIVE
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<footer>
+			<!-- Insert footer content below this line -->
+			<div class="row mt-2">
+				<div class="col-md-12 border border-left-0 border-right-0 my-border text-left pb-3">
+					Remarks:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-left">
+					NOTE:
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-left">
+					* REVERSE: VALUES BELOW THE CUT OFF IS CONSIDERED REACTIVE.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-left">
+					* PLEASE CORRELATE CLINICALLY
+				</div>
+			</div>
+			<div class="row u-mt-400">
+				<div class="col-md-6 text-left">
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							ROSELLA MARIE D. DAVID, RMT
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							Medical Technologist
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							License #: 060298
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 text-right d-flex justify-content-center">
+					<img src="Images/signature.png" alt="">
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

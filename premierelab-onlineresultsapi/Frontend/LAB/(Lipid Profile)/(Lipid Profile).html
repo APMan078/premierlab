@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Premiere Lab</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Arial', sans-serif;
+			font-size: 15px;
+			line-height: 1.5;
+		}
+
+		.page-center {
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		.bold {
+			/* Make text bold */
+			font-weight: bold;
+		}
+
+		.up-Bold { 
+			/* Make text uppercase and bold */
+			text-transform: uppercase;
+			font-weight: bold; 
+		}
+
+		.up-Text { 
+			/* Make text uppercase */
+			text-transform: uppercase;
+		}
+
+		.center-Up-Bold {
+			/* Make text centered, uppercase and bold */
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.text-Up-Center {
+			/* Make text uppercase and centered */
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		.fontS18 {
+		    font-size: 18px;
+		}
+
+		.fontS20 {
+		    font-size: 20px;
+		}
+
+		.fontS22 {
+		    font-size: 22px;
+		}
+
+		.fontS25 {
+		    font-size: 25px;
+		}
+
+		.padTop5 {
+			padding-top: 5px;
+		}
+
+		.padTop10 {
+			padding-top: 10px;
+		}
+
+		.padTop15 {
+			padding-top: 15px;
+		}
+
+		.padTop20 {
+			padding-top: 20px;
+		}
+
+		/* ====== Only put custom styling below this line ====== */
+		.my-border {
+			border-width:2px !important;
+			border-color: black !important;
+		}
+
+		.u-pl-80 {
+			padding-left: 80px !important;
+		}
+
+		.u-mt-400 {
+			margin-top: 400px;
+		}
+
+		.u-mt-100 {
+			margin-top: 100px;
+		}
+
+		.u-b-b-color {
+			border-bottom-color: #ffffff !important;
+		}
+
+		. {
+			position: relative;
+		}
+
+		.custom-border {
+			position: absolute;
+			top: -4px;
+			right: 0;
+			height: 26px;
+			width: 2px;
+			background-color: #000000;
+			display: inline-block;
+		}
+
+		.u-text-line {
+			text-decoration: underline;
+		}
+
+		@media only screen and (max-width: 767px ) {
+
+			.page-center { padding: 5px; }
+
+			.u-d-none { display: none !important; }
+
+			.u-mb-8 {
+				margin-bottom: 8px !important;
+			}
+
+			.u-left-parent > div > div {
+				text-align: left !important;
+			}
+
+			.u-mb-parent > div:nth-child(even) {
+				margin-bottom: 8px;
+			}
+
+			.u-mb-parent-odd > div:nth-child(odd) {
+				margin-bottom: 8px;
+			}
+
+			.u-center {
+				text-align: center !important;
+			}
+
+			.u-left {
+				text-align: left !important;
+			}
+
+			.u-mt-15 {
+				margin-top: 15px !important;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="page-center">
+		<header>
+			<!-- Insert header content below this line -->
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Name:
+				</div>
+				<div class="col-md-6">
+					GUMBA, ILUMINADA P.
+				</div>
+				<div class="col-md-2">
+					Test Requested:
+				</div>
+				<div class="col-md-2">
+					08/13/2019 06:09 AM
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					Age:
+				</div>
+				<div class="col-md-6">
+					<div class="row u-mb-parent-odd">
+						<div class="col-md-3">
+							57
+						</div>
+						<div class="col-md-2">
+							DOB.:
+						</div>
+						<div class="col-md-5">
+							11/29/1961
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					Sample Submitted:
+				</div>
+				<div class="col-md-2 u-mb-8">
+					08/13/2019 06:10 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Gender:
+				</div>
+				<div class="col-md-6">
+					<div class="row row u-mb-parent-odd">
+						<div class="col-md-3">
+							FEMALE
+						</div>
+						<div class="col-md-2">
+							J.O. No.:
+						</div>
+						<div class="col-md-6">
+							20190813-002
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					Sample Processed:
+				</div>
+				<div class="col-md-2">
+					08/13/2019 07:00 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Hospital:
+				</div>
+				<div class="col-md-6">
+					PREMIERE CLINIC
+				</div>
+				<div class="col-md-2">
+					Result Validated:
+				</div>
+				<div class="col-md-2">
+					08/13/2019 09:02 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Referring MD:
+				</div>
+				<div class="col-md-6">
+					DR. LUIS RAYMOND T GO
+				</div>
+				<div class="col-md-2">
+					Specimen No.:
+				</div>
+				<div class="col-md-2">
+					1
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<!-- Insert main content below this line -->
+			<div class="row">
+				<div class="col-md-12 center-Up-Bold u-left mt-3 u-mt-15">
+					LIPOPROTEINS
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12 border border-right-0 text-center font-weight-bold my-border pt-1 u-left u-b-b-color">
+							Test Name
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 border my-border border-top-0 border-right-0 pt-1 u-left">
+							&nbsp;
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							Cholesterol (Total) 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							Triglyceride
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							HDL
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							LDL
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							VLDL
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left pt-2 pl-5">
+							Chol/HDL Ratio 
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12 border text-center font-weight-bold my-border border-right-0 pt-1 u-left">
+							SI Unit
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3 u-left">
+							<div class="row">
+								<div class="col font-weight-bold border my-border border-top-0 pt-1">
+									Result
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									4.19
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									0.82
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									1.56
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									2.23
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									0.4
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									2.7
+								</div>
+							</div>
+						</div>
+						<div class="col u-left">
+							<div class="row">
+								<div class="col font-weight-bold border my-border border-left-0 border-right-0 border-top-0 pt-1">
+									Reference Range
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&lt; 5.17 mmol/L 
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&lt; 1.69 mmol/L
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									0.7 - 1.73 mmol/l
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&lt; 2.58 mmol/L
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&lt; 1.04 mmol/L 
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&lt; 5.6
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12 border text-center font-weight-bold my-border pt-1 u-left">
+							Conventional Unit
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3 u-left">
+							<div class="row">
+								<div class="col font-weight-bold border my-border border-top-0 pt-1">
+									Result
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									161.8
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									72.6
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									60.2
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									87.0
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									14.5
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&nbsp;
+								</div>
+							</div>
+						</div>
+						<div class="col u-left">
+							<div class="row">
+								<div class="col font-weight-bold border my-border border-left-0 border-top-0 pt-1">
+									Reference Range
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&lt; 200.0 mg/dL
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&lt; 150 mg/dL
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									27.0 - 67.0 mg/dL
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&lt; 100 mg/dL
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&lt; 40 mg/dL
+								</div>
+							</div>
+							<div class="row">
+								<div class="col text-left pt-2">
+									&nbsp;
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="my-border">
+			<div class="row">
+				<div class="col-md-12 center-Up-Bold text-left u-left mt-3 u-mt-15 pl-5 u-text-line u-left mb-3">
+					ADULT TREATMENT PANEL III CLASSIFICATION OF LDL, TOTAL, AND HDL CHOLESTEROL
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 mb-3 text-center u-left-parent">
+					<div class="row mb-2">
+						<div class="col-md-12 font-weight-bold text-center">
+							Total Cholesterol
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							mg/dl 
+						</div>
+						<div class="col-6 text-center">
+							mg/dl 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							&lt; 200
+						</div>
+						<div class="col-6 text-center">
+							&lt; 5.17
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							200 - 239
+						</div>
+						<div class="col-6 text-center">
+							5.17 - 6.20
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							> 240
+						</div>
+						<div class="col-6 text-center">
+							> 6.20
+						</div>
+					</div>
+					<div class="row mb-2 mt-3">
+						<div class="col-md-12 font-weight-bold text-center">
+							HDL Cholesterol
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							mg/dl
+						</div>
+						<div class="col-6 text-center">
+							mmol/L
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							&lt; 40
+						</div>
+						<div class="col-6 text-center">
+							&lt; 1.03
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							&gt; 60
+						</div>
+						<div class="col-6 text-center">
+							&gt; 1.55
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 mb-3 text-center u-left-parent">
+					<div class="row mb-2">
+						<div class="col-md-12 font-weight-bold text-center">
+							Classification
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center">
+							&nbsp;
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center font-italic">
+							Desirable
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center font-italic">
+							Borderline High
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center font-italic">
+							High
+						</div>
+					</div>
+					<div class="row mb-2 mt-3">
+						<div class="col-md-12 font-weight-bold text-center">
+							Classification
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center">
+							&nbsp;
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center font-italic">
+							Low
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center font-italic">
+							High
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 mb-3 text-center u-left-parent">
+					<div class="row mb-2">
+						<div class="col-md-12 font-weight-bold text-center">
+							&nbsp;
+						</div>
+					</div>
+					<div class="row mb-2">
+						<div class="col-md-12 font-weight-bold text-center">
+							LDL Cholesterol 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							mg/dl
+						</div>
+						<div class="col-6 text-center">
+							mmol/L
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							&lt; 100
+						</div>
+						<div class="col-6 text-center">
+							&lt; 2.58
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							100 - 129 
+						</div>
+						<div class="col-6 text-center">
+							2.58 - 3.33
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							130 - 159
+						</div>
+						<div class="col-6 text-center">
+							3.37 - 4.11
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							160 - 189
+						</div>
+						<div class="col-6 text-center">
+							4.12 - 4.88
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-6 text-center">
+							> 190
+						</div>
+						<div class="col-6 text-center">
+							> 4.91
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 mb-3 text-center u-left-parent">
+					<div class="row mb-2">
+						<div class="col-md-12 font-weight-bold text-center">
+							&nbsp;
+						</div>
+					</div>
+					<div class="row mb-2">
+						<div class="col-md-12 font-weight-bold text-center">
+							Classification
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center">
+							&nbsp;
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center font-italic">
+							Optimal
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center font-italic">
+							Near Optimal
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center font-italic">
+							Borderline High
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center font-italic">
+							High
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center font-italic">
+							Very High
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<footer>
+			<!-- Insert footer content below this line -->
+			<div class="row u-mt-100">
+				<div class="col-md-6 text-left">
+					<div class="row">
+						<div class="col-md-12 text-left u-center u-text-line">
+							ANGELICA COLLEEN M. MENDINUETO, RMT
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							Medical Technologist
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							License #: 089664
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 text-right d-flex justify-content-center">
+					<img src="Images/signature.png" alt="">
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

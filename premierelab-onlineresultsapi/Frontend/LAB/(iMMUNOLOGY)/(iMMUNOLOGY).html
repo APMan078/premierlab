@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Premiere Lab</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Arial', sans-serif;
+			font-size: 15px;
+			line-height: 1.5;
+		}
+
+		.page-center {
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+
+		.bold {
+			/* Make text bold */
+			font-weight: bold;
+		}
+
+		.up-Bold { 
+			/* Make text uppercase and bold */
+			text-transform: uppercase;
+			font-weight: bold; 
+		}
+
+		.up-Text { 
+			/* Make text uppercase */
+			text-transform: uppercase;
+		}
+
+		.center-Up-Bold {
+			/* Make text centered, uppercase and bold */
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.text-Up-Center {
+			/* Make text uppercase and centered */
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		.fontS18 {
+		    font-size: 18px;
+		}
+
+		.fontS20 {
+		    font-size: 20px;
+		}
+
+		.fontS22 {
+		    font-size: 22px;
+		}
+
+		.fontS25 {
+		    font-size: 25px;
+		}
+
+		.padTop5 {
+			padding-top: 5px;
+		}
+
+		.padTop10 {
+			padding-top: 10px;
+		}
+
+		.padTop15 {
+			padding-top: 15px;
+		}
+
+		.padTop20 {
+			padding-top: 20px;
+		}
+
+		/* ====== Only put custom styling below this line ====== */
+		.my-border {
+			border-width:2px !important;
+			border-color: black !important;
+		}
+
+		.u-pl-80 {
+			padding-left: 80px !important;
+		}
+
+		.u-mt-400 {
+			margin-top: 400px;
+		}
+
+		@media only screen and (max-width: 767px ) {
+
+			.page-center { padding: 5px; }
+
+			.u-d-none { display: none !important; }
+
+			.u-mb-8 {
+				margin-bottom: 8px !important;
+			}
+
+			.u-left-parent > div > div {
+				text-align: left !important;
+			}
+
+			.u-mb-parent > div:nth-child(even) {
+				margin-bottom: 8px;
+			}
+
+			.u-mb-parent-odd > div:nth-child(odd) {
+				margin-bottom: 8px;
+			}
+
+			.u-center {
+				text-align: center !important;
+			}
+
+			.u-left {
+				text-align: left !important;
+			}
+
+			.u-mt-15 {
+				margin-top: 15px !important;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="page-center">
+		<header>
+			<!-- Insert header content below this line -->
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Name:
+				</div>
+				<div class="col-md-6">
+					DEJA, FERDINAND C.
+				</div>
+				<div class="col-md-2">
+					Test Requested:
+				</div>
+				<div class="col-md-2">
+					03/07/2019 06:36 AM
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					Age:
+				</div>
+				<div class="col-md-6">
+					<div class="row u-mb-parent-odd">
+						<div class="col-md-3">
+							55
+						</div>
+						<div class="col-md-2">
+							DOB.:
+						</div>
+						<div class="col-md-5">
+							09/07/1963
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					Sample Submitted:
+				</div>
+				<div class="col-md-2 u-mb-8">
+					03/07/2019 07:30 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Gender:
+				</div>
+				<div class="col-md-6">
+					<div class="row row u-mb-parent-odd">
+						<div class="col-md-3">
+							MALE
+						</div>
+						<div class="col-md-2">
+							J.O. No.:
+						</div>
+						<div class="col-md-6">
+							20190307-002
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					Sample Processed:
+				</div>
+				<div class="col-md-2">
+					03/07/2019 07:39 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Hospital:
+				</div>
+				<div class="col-md-6">
+					FEU- MARIAN MEDICAL
+				</div>
+				<div class="col-md-2">
+					Result Validated:
+				</div>
+				<div class="col-md-2">
+					03/07/2019 11:33 AM
+				</div>
+			</div>
+			<div class="row u-mb-parent">
+				<div class="col-md-2">
+					Referring MD:
+				</div>
+				<div class="col-md-6">
+					DR. ALEXANDER D. ANG
+				</div>
+				<div class="col-md-2">
+					Specimen No.:
+				</div>
+				<div class="col-md-2">
+					32
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<!-- Insert main content below this line -->
+			<div class="row">
+				<div class="col-md-12 border my-border border-bottom-0 center-Up-Bold u-left mt-3 u-mt-15">
+					IMMUNOLOGY
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md">
+					<div class="row">
+						<div class="col-md-12 border text-center font-weight-bold my-border pt-1 u-left">
+							Test Name
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 font-weight-bold text-left pt-2 pl-5">
+							FT3
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 font-weight-bold text-left pt-2 pl-5">
+							FT4
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 font-weight-bold text-left pt-2 pl-5">
+							TSH
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col-md-12 font-weight-bold text-left pt-2 pl-5">
+							TOTAL PSA
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 font-weight-bold text-left pt-2 pl-5">
+							CEA
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="row">
+						<div class="col-md-12 border text-center font-weight-bold my-border pt-1 u-left u-mt-15">
+							Method
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center pt-2 pl-4 u-left">
+							ECLIA
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center pt-2 pl-4 u-left">
+							ECLIA
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center pt-2 pl-4 u-left">
+							ECLIA
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col-md-12 text-center pt-2 pl-4 u-left">
+							ECLIA
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center pt-2 pl-4 u-left">
+							ECLIA
+						</div>
+					</div>
+				</div>
+				<div class="col-md u-left-parent">
+					<div class="row">
+						<div class="col-md-12 border border-left-0 border-right-0 text-center font-weight-bold my-border pt-1 u-center u-mt-15">
+							Result
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							4.64
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							14.58
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2">
+							4.19
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col-md-12 text-center my-border pt-2">
+							0.590
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 my-border pt-2">
+							<div class="row">
+								<div class="col-md-1">
+									*
+								</div>
+								<div class="text-center mr-3 col-md u-left">
+									5.54
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="row">
+						<div class="col-md-12 border text-center font-weight-bold my-border pt-1 u-left u-mt-15">
+							Reference Value
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2 pl-4 u-left">
+							3.10 - 6.80 pmol/l
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2 pl-4 u-left">
+							12.0 - 22.0 pmol/l
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2 pl-4 u-left">
+							0.27 - 4.20 uIU/ml
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col-md-12 text-center my-border pt-2 pl-4 u-left">
+							less than 4.0 ng/ml
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center my-border pt-2 pl-4 u-left">
+							0.000 - 4.70 ng/ml
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<footer>
+			<!-- Insert footer content below this line -->
+			<div class="row mt-2">
+				<div class="col-md-12 border border-left-0 border-right-0 my-border text-left py-1">
+					Remarks: *RESULTS DOUBLE CHECKED.
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-left u-pl-80">
+					Please Correlate Clinically
+				</div>
+			</div>
+			<div class="row u-mt-400">
+				<div class="col-md-6 text-left">
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							ROSELLA MARIE D. DAVID, RMT
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							Medical Technologist
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-left u-center">
+							License #: 060298
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 text-right d-flex justify-content-center">
+					<img src="Images/signature.png" alt="">
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
